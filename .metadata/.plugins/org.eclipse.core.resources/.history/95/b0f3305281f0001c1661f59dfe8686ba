@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<beans
+xmlns="http://www.springframework.org/schema/beans"
+xmlns:context="http://www.springframework.org/schema/context"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+<context:annotation-config></context:annotation-config>
+<bean id="p"  class="ankit.department">
+<property name="dname" value="IT"></property>
+<property name="city" value="up"></property>
+
+</bean>
+<bean id="p"  class="ankit.emp">
+<property name="name" value="aankit"></property>
+<property name="des" value="engineer"></property>
+
+</bean>
+</beans>

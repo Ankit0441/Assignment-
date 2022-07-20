@@ -1,0 +1,16 @@
+package ankit;
+
+public class department {
+String dname;
+String city;
+public void setDname(String dname) {
+	this.dname = dname;
+}
+public void setCity(String city) {
+	this.city = city;
+}
+
+}
+
+
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jpa1/src/main/java/ankit/persist.java&apos; to &apos;persist1.java&apos;" description="Rename resource &apos;persist.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/ankit/persist.java" name="persist1.java" stamp="1655381461502" updateReferences="true"/>
+</session>

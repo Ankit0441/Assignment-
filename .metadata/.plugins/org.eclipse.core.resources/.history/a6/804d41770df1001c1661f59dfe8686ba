@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<beans
+xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="p"  class="ankit.point">
+<property name="x" value="10"></property>
+<property name="y" value="10"></property>
+
+
+</bean>
+<bean id="p1" class="ankit.circle" autowire="constructor">
+
+
+</bean>
+</beans>

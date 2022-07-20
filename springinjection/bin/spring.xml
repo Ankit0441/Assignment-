@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<beans
+xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="p1"  class="ankit.Product">
+<property name="id" value="1"></property>
+<property name="name" value="charger"></property>
+<property name="price" value="12345"></property>
+</bean>
+<bean id="p2"  class="ankit.Product">
+<property name="id" value="2"></property>
+<property name="name" value="ger"></property>
+<property name="price" value="145"></property>
+</bean>
+</beans>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<beans
+xmlns="http://www.springframework.org/schema/beans"
+xmlns:context="http://www.springframework.org/schema/context"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+<context:annotation-config></context:annotation-config>
+<bean id="d"  class="ankit.department">
+<constructor-arg value="IT"></constructor-arg>
+<constructor-arg value="UP"></constructor-arg>
+
+<property name="city" value="up"></property>
+
+</bean>
+<bean id="d1"  class="ankit.department">
+<constructor-arg value="HR"></constructor-arg>
+<constructor-arg value="Haryana"></constructor-arg>
+
+</bean>
+<bean id="e"  class="ankit.emp">
+<constructor-arg value="ankit"></constructor-arg>
+<constructor-arg value="engineer"></constructor-arg>
+
+</bean>
+<bean id="e1"  class="ankit.emp">
+<constructor-arg value="ohm"></constructor-arg>
+<constructor-arg value="programmer"></constructor-arg>
+
+</bean>
+
+
+</beans>

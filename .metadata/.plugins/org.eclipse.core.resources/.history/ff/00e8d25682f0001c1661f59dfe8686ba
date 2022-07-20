@@ -1,0 +1,22 @@
+package ankit;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class emp {
+String name;
+String des;
+department dept;
+@Autowired
+
+public emp(String name, String des, department dept) {
+	super();
+	this.name = name;
+	this.des = des;
+	this.dept = dept;
+}
+
+void m()
+{
+	System.out.println(name+" a "+des+" working in "+dept.dname+" department at "+" city");
+}
+}

@@ -1,0 +1,20 @@
+package ankit;
+import org.springframework.jdbc.core.*;
+public class productDao {
+	JdbcTemplate JdbcTemplate;
+
+	public JdbcTemplate getJdbcTemplate() {
+		return JdbcTemplate;
+	}
+
+	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+		JdbcTemplate = jdbcTemplate;
+	}
+	String s="insert into product values(?,?,?)";
+	public int save(product p)
+	{
+		return JdbcTemplate.update(s,p.getId(),p.getName(),p.getPrice());
+	}
+	
+
+}
